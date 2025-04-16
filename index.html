@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Enrollment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Enrollment</h2>
+    <form id="enrollForm" autocomplete="off">
+      <input type="text" id="fullName" placeholder="Full Name" required><br>
+      <input type="text" id="institute" placeholder="Institute" autocomplete="off" required><br>
+      <div id="instituteSuggestions"></div>
+      <input type="text" id="userID" placeholder="User ID" required><br>
+      <input type="password" id="pass" placeholder="Password" required><br>
+      <input type="password" id="confirmPass" placeholder="Confirm Password" required><br>
+      <button type="submit">Enroll</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
